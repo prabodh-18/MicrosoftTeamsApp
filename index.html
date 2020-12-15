@@ -7,6 +7,9 @@
     <script src= 'https://statics.teams.cdn.office.net/sdk/v1.6.0/js/MicrosoftTeams.min.js'></script>
     <script>
         microsoftTeams.initialize();
+        microsoftTeams.getContext(function(context) { 
+            console.log(context);
+         });
     </script>
 </head>
 <body>
